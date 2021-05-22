@@ -1,0 +1,154 @@
+.portfolio{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+.con{
+  margin-top: 100px
+}
+.por{
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 400px; width: 500px;
+  background-color: #FAEBD7;
+  background-size: cover;
+}
+.satu{
+  background-image: url("vila4.jpg");
+}
+.satu:hover{
+  background-image: url("vila4.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.dua{
+  background-image: url("vila5.jpg");
+    background-repeat: no-repeat;
+}
+.dua:hover{
+  background-image: url("vila5.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.tiga{
+  background-image: url("vila6.jpg");
+}
+.tiga:hover{
+  background-image: url("vila6.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.empat{
+  background-image: url("vila1.jpg");
+}
+.empat:hover{
+  background-image: url("vila1.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.lima{
+  background-image: url("vila2.jpg");
+}
+.lima:hover{
+  background-image: url("vila2.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.enam{
+  background-image: url("vila3.jpg");
+}
+.enam:hover{
+  background-image: url("vila3.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.tujuh{
+  background-image: url("vila7.jpg");
+}
+.tujuh:hover{
+  background-image: url("vila7.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.delapan{
+  background-image: url("vila8.jpeg");
+}
+.delapan:hover{
+  background-image: url("vila8.jpeg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.sembilan{
+  background-image: url("vila9.jpg");
+}
+.sembilan:hover{
+  background-image: url("vila9.jpg");
+  transform: scale(1.1);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.lal{
+  color: white;
+}
+a{
+  color: white;
+}
+
+
+/* RESIDENTIAL*/
+
+.contains{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pot{
+  margin: 10px;
+  position: relative;
+}
+
+.overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-color: lightgrey;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.pot:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
